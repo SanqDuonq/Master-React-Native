@@ -7,6 +7,9 @@ import "../global.css"
 import TextComponent from "@/components/TextComponent";
 import ViewComponent from "@/components/ViewComponent";
 import ButtonComponent from "@/components/ButtonComponent";
+import ImageComponent from "@/components/ImageComponent";
+import CardComponent from "@/components/Challenge/CardComponent";
+import CarComponent from "@/components/Challenge/CarComponent";
 const Index = () => {
     return (
         <View>
@@ -14,9 +17,12 @@ const Index = () => {
             <AgeComponent/>
             <XComponent/>
             <SubjectComponent/> */}
-            <TextComponent/>
+            {/* <TextComponent/>
             <ViewComponent/>
             <ButtonComponent/>
+            <ImageComponent/> */}
+            {/* <CardComponent/> */}
+            <CarComponent/>
         </View>
     )
 }
