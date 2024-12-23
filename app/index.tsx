@@ -15,6 +15,9 @@ import ArrayOfObject from "@/components/arrayOfObject";
 import HugeComponent from "@/components/Challenge/HugeComponent";
 import ParentComponent from "@/components/ParentComponent";
 import PropsComponent from "@/components/Challenge/PropsComponent";
+import ConditionStatement from "@/components/ConditionStatement";
+import ANDOperator from "@/components/ANDOperator";
+import TernaryOperator from "@/components/TernaryOperator";
 const Index = () => {
     return (
         <View>
@@ -32,7 +35,10 @@ const Index = () => {
             {/* <ArrayOfObject/> */}
             {/* <HugeComponent/> */}
             {/* <ParentComponent/> */}
-            <PropsComponent/>
+            {/* <PropsComponent/> */}
+            {/* <ConditionStatement/> */}
+            {/* <ANDOperator/> */}
+            <TernaryOperator/>
         </View>
     )
 }
