@@ -10,6 +10,11 @@ import ButtonComponent from "@/components/ButtonComponent";
 import ImageComponent from "@/components/ImageComponent";
 import CardComponent from "@/components/Challenge/CardComponent";
 import CarComponent from "@/components/Challenge/CarComponent";
+import ListData from "@/components/listData";
+import ArrayOfObject from "@/components/arrayOfObject";
+import HugeComponent from "@/components/Challenge/HugeComponent";
+import ParentComponent from "@/components/ParentComponent";
+import PropsComponent from "@/components/Challenge/PropsComponent";
 const Index = () => {
     return (
         <View>
@@ -22,7 +27,12 @@ const Index = () => {
             <ButtonComponent/>
             <ImageComponent/> */}
             {/* <CardComponent/> */}
-            <CarComponent/>
+            {/* <CarComponent/> */}
+            {/* <ListData/> */}
+            {/* <ArrayOfObject/> */}
+            {/* <HugeComponent/> */}
+            {/* <ParentComponent/> */}
+            <PropsComponent/>
         </View>
     )
 }
