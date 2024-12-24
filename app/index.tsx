@@ -18,6 +18,8 @@ import PropsComponent from "@/components/Challenge/PropsComponent";
 import ConditionStatement from "@/components/ConditionStatement";
 import ANDOperator from "@/components/ANDOperator";
 import TernaryOperator from "@/components/TernaryOperator";
+import WithoutState from "@/components/Basic Counter/WithoutState";
+import WithState from "@/components/Basic Counter/WithState";
 const Index = () => {
     return (
         <View>
@@ -38,7 +40,9 @@ const Index = () => {
             {/* <PropsComponent/> */}
             {/* <ConditionStatement/> */}
             {/* <ANDOperator/> */}
-            <TernaryOperator/>
+            {/* <TernaryOperator/> */}
+            {/* <WithoutState/> */}
+            <WithState/>
         </View>
     )
 }
